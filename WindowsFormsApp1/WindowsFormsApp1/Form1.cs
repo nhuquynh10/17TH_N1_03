@@ -16,5 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+        /// comment for login form
+        
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            /// comment for login form
+        }
+       public string format1Str(string str){
+           if( !string.IsNullOrEmpty(str)){
+                return "";
+           }
+           return str + "-test";
+       }
     }
 }
