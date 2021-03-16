@@ -16,10 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+        /// comment for login form
+        
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Login successful");
+            /// comment for login form
         }
+       public string formatStr(string str){
+           if( !string.isNullOrEmty(str)){
+           return "";
+           }
+           return str + "-test";
+       }
     }
 }
