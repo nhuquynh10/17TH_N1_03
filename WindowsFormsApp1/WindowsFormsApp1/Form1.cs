@@ -22,9 +22,9 @@ namespace WindowsFormsApp1
         {
             /// comment for login form
         }
-       public string formatStr(string str){
-           if( !string.isNullOrEmty(str)){
-           return "";
+       public string format1Str(string str){
+           if( !string.IsNullOrEmpty(str)){
+                return "";
            }
            return str + "-test";
        }
